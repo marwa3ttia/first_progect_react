@@ -11,7 +11,7 @@ const Action_counter = () => {
             setValue_counter( value_counter -1 );
           }
     return (
-        <div className = "counter__div">
+        <div className = "main" >
             {/* {
             value_counter <= 0 ||   value_counter == 100
             ?

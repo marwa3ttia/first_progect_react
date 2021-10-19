@@ -5,12 +5,13 @@ import './Counter.css'
 const Counter = (prods) => {
 
     return (
-        <div>
+        <div className = "counter__div">
            
-<h1> {prods.value_counter}</h1>
-<button className="incr" onClick = {prods.incrment}> +</button>
-<button  className="decr" onClick = {prods.decrment}> -</button>
-
+<h1 className = "text-center"> {prods.value_counter}</h1>
+<div className = "d-flex justify-content-around">
+<button className=" btn btn-primary p-2 w-25 m-1" onClick = {prods.incrment}> +</button>
+<button  className="btn btn-danger  p-2 w-25 m-1" onClick = {prods.decrment}> -</button>
+</div>
         </div>
     )
 }

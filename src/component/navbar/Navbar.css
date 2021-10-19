@@ -1,0 +1,12 @@
+.navbar__section{
+
+    align-items: flex-end;
+    background-color: rgb(67, 68, 68);
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+    margin-left: auto;
+}
