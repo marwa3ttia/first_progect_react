@@ -1,0 +1,23 @@
+.counter__div{
+    background-color: rgb(194, 189, 189);
+    width: 20%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 3rem;
+
+}
+.incr , .decr{
+    width: 40%;
+    margin-bottom: 20px;
+    color: white;
+    font-size: xx-large;
+    border-radius: 20px;
+    border: 1px solid  gray;
+}
+.incr{
+    background-color: darkgreen;
+}
+
+.decr{
+background-color: darkred;
+}
