@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './component/navbar/Navbar';
 import ProductDetails from './component/product details/ProductDetails';
 import Home from './component/home/Home';
-
+import TodoList from "./views/todo/Todo";
 
 import Shop from './component/Shop/Shop';
 import {BrowserRouter as Router, Route , Switch} from 'react-router-dom'
@@ -22,7 +22,7 @@ function App() {
       <Route component = {Home} path = "/" exact />
       <Route component = {Shop} path = "/shop" exact/>
       <Route component = {ProductDetails} path = "/shop/:id"/>
-
+      <Route component={TodoList} path="/todo" />
       </Switch>
       </header>
     </div>

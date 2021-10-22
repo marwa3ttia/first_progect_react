@@ -17,8 +17,7 @@ export const Shop = () => {
 
   return (
     <div>
-      <h1> welcome in shop</h1>
-      <section className = "container d-flex flex-wrap">
+       <section className = "container d-flex flex-wrap">
       {products.map((product) => {
         return (
           <Link to ={`/shop/${product.id}`} key = {product.id} className = "product p-3 me-3 mb-3 border">

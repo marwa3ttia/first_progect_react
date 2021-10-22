@@ -20,8 +20,7 @@ const Action_counter = () => {
 
             } */}
             <Counter value_counter  = {value_counter } incrment = {incrment }
-            decrment = {decrment}
-            ></Counter>
+            decrment = {decrment}> </Counter>
         </div>
     )
 }
