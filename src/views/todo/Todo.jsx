@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import TodoForm from "../../component/todo/TodoForm";
 import TodoList from "../../component/todo/TodoList";
-import {addtodoAction} from '../../redux/todo'
+import {addtodoAction ,deletetodoAction} from '../../redux/todo'
 import './Todo.css';
 function Todo() { 
   
@@ -28,11 +28,12 @@ const todostate = useSelector(state => state.todos)
   const addTodo = (task) => {
     dispatch (addtodoAction(task));
   };
-
+// *********************************
   const deleteTodo = (index) => {
-    // setTodos(todos.filter((todo,i) => i !== index))
+    dispatch(deletetodoAction(index))
   }
 
+ 
   return (
     <div className="text-center py-2 todo-wrapper container">
       <TodoForm addTodo={addTodo} />
