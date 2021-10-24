@@ -11,7 +11,8 @@ export const Navbar = () => {
                 <li className = "px-3 text-capitalize"><Link to ="/shop"> shop</Link> </li>
                 <li className = "px-3 text-capitalize"> <Link to ="/count"> counter</Link></li>
                 <li className = "px-3 text-capitalize"> <Link to ="/todo"> todo_list</Link></li>
-  
+                <li className = "px-3 text-capitalize"> <Link to ="/Login"> login</Link></li>
+                <li className = "px-3 text-capitalize"> <Link to ="/reg"> Register </Link></li>
             </ul>
         </div>
     )

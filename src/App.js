@@ -5,8 +5,9 @@ import Navbar from './component/navbar/Navbar';
 import ProductDetails from './component/product details/ProductDetails';
 import Home from './component/home/Home';
 import TodoList from "./views/todo/Todo";
-
+import Register from './component/forms/Register'; 
 import Shop from './component/Shop/Shop';
+import Login from './component/forms/Login';
 import {BrowserRouter as Router, Route , Switch} from 'react-router-dom'
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
       <Route component = {Shop} path = "/shop" exact/>
       <Route component = {ProductDetails} path = "/shop/:id"/>
       <Route component={TodoList} path="/todo" />
+      <Route component={Login} path="/login" />
+      <Route component={Register} path="/reg" />
       </Switch>
       </header>
     </div>

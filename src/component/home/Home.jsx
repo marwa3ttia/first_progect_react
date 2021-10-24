@@ -10,7 +10,7 @@ export const Home = () => {
             <div class="abouT__me-header col-3">
             <img  className="w-100" src={my_img} alt="profile" />
             </div>
-
+            
             <div class="abouT__me-info col-9 pt-5">
               <p>
                 {" "}
@@ -23,7 +23,6 @@ export const Home = () => {
                 distinctio eos voluptatem eaque numquam magnam cupiditate,
                 voluptates incidunt.
               </p>
-
               <button> download resume</button>
             </div>
           </div>
