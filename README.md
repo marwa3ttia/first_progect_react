@@ -1,1 +1,1 @@
-# first_progect_react
+# first_project_react
